@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/category1"
+        android:title="Coffee Shops"
+        android:icon="@drawable/coffee_shops" />
+    <item
+        android:id="@+id/category2"
+        android:title="Restaurants"
+        android:icon="@drawable/restaurant" />
+    <item
+        android:id="@+id/category3"
+        android:title="Shopping Centers"
+        android:icon="@drawable/shopping_centers" />
+    <item
+        android:id="@+id/category4"
+        android:title="Tourist Spots"
+        android:icon="@drawable/tourist_spots" />
+</menu>
+

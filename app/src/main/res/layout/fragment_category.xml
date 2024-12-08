@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff0e2"
+    android:fitsSystemWindows="true">
+
+    <TextView
+        android:id="@+id/categoryTitle"
+        android:layout_width="415dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/amiko"
+        android:padding="@dimen/text_padding"
+        android:textColor="#5a315d"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/recommendationListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="@dimen/text_padding"
+        android:paddingBottom="@dimen/text_padding"
+        android:textColor="#5a315d"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="5dp"
+        android:textSize="50sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigation"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_margin="10dp"
+            android:background="@drawable/bottom_nav_background"
+            android:elevation="0dp"
+            app:itemTextColor="#5a315d"
+            app:menu="@menu/bottom_nav_menu" />
+    </FrameLayout>
+
+</LinearLayout>
